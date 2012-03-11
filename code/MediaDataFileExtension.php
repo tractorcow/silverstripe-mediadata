@@ -12,7 +12,7 @@ class MediaDataFileExtension extends DataObjectDecorator
      * Retrieves the extracted media information for this file
      * @return IMediaFileInformation The extracted media file information
      */
-    public function getMediaData()
+    public function MediaData()
     {
         return MediaDataManager::factory()->DataFor($this->owner->FullPath);
     }
