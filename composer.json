@@ -1,0 +1,23 @@
+{
+	"name": "tractorcow/silverstripe-mediadata",
+	"description": "Extracts video and audio data from files using getId3()",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe", "media", "video"],
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Damian Mooyman",
+			"email": "damian@silverstripe.com"
+		}
+	],
+	"support": {
+		"issues": "http://github.com/tractorcow/silverstripe-mediadata/issues"
+	},
+	"require": {	
+		"silverstripe/framework": "*",
+		"composer/installers": "*"
+	},
+	"extra": {
+		"installer-name": "mediadata"
+	}
+}
